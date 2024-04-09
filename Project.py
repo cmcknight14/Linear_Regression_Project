@@ -1,5 +1,5 @@
-import pandas as pd                                                             # library used for data science in Python
-import matplotlib.pyplot as plt                                                 # vizualization tool for plotting data points
+import pandas as pd                                                             # type: ignore # library used for data science in Python
+import matplotlib.pyplot as plt                                                 # type: ignore # vizualization tool for plotting data points
 
 
 data = pd.read_csv('data.csv')                                                  # reading the data from the associated CSV file
